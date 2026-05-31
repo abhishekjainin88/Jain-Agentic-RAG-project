@@ -23,7 +23,7 @@ kind: ClusterConfig
 
 metadata:
   # Name used in kubectl contexts and all eksctl commands
-  name: agentic-rag-cluster1
+  name: agentic-rag-cluster2
   region: us-east-1
   version: "1.31"
 
