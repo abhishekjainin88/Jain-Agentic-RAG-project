@@ -42,7 +42,7 @@ managedNodeGroups:
     # m5.xlarge is the safe minimum for running OpenSearch + API on the same node.
     # To save cost during development: switch to t3.large (2 vCPU, 8 GB, ~$60/month)
     # but reduce OpenSearch heap to -Xms512m -Xmx512m.
-    instanceType: m5.xlarge
+    instanceType: m7i-flex.large
 
     minSize: 2        # Keep 2 nodes for pod anti-affinity spread
     maxSize: 4        # HPA can add API pods; cluster autoscaler adds nodes
